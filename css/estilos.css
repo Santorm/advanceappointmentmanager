@@ -1,0 +1,395 @@
+body, html{
+
+	font-size: 16px;
+	text-decoration: none;
+    margin: auto;
+  background-color: #eef2fd;
+}
+body{  
+   margin: auto;
+   width: 100%;
+   
+}
+
+
+a{
+text-decoration: none;
+}
+h1{
+	display: inline;
+	font-style: none;
+	margin:0;
+	padding:0;
+	font-size:100%;
+	font-weight:normal;
+}
+
+.nav, #menu{
+	position: relative !important;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #002E3E;
+    top: 150px;
+}
+
+#container {
+
+	width:100%;
+	max-width: 1024px;
+    position:relative;
+	height:auto;
+	margin:auto;
+    
+}
+
+#btn_logoff, .btn_gestionar, .btn_log, #btn_alta, #btn_gestionar{
+	font-family: 'Montserrat', sans-serif;
+    margin: 0 auto 10px;
+    color: #345555;
+    font-size: 14px;
+    border: solid 1px #8fa1a1;
+    width: 125px;
+    height: 24px;
+    line-height: 22px;
+    border-radius: 5px;
+    background-color: #eef2fd;
+    cursor: pointer;
+}
+
+#btn_logoff:hover, .btn_gestionar:hover, #btn_gestionar:hover,.btn_log:hover, #btn_alta:hover{
+   
+    color: #fff;
+    border: solid 1px #8fa1a1;
+     background-color: #8fa1a1;
+}
+
+#titulo_principal{
+	margin-top: 50px; 
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #345555;
+	font-size: 28px;
+
+}
+
+#titulo_principal_2{
+	margin-top: 30px; 
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #345555;
+
+}
+
+#filtros{
+	position: relative;
+	/*border:solid 1px red;*/
+	width: 30%;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	/*font-family: 'Lato', sans-serif;*/
+    font-size: 1em;
+  	text-align: center;
+    margin: 5px 0 0 0;
+    line-height: 18px;
+    color: #4D4D4D;
+
+}
+
+
+/*////////ESTILOS TABLA DE CONSULTA//////*/
+
+	#calendar{
+		position: relative;
+		margin: auto;
+		/*border: solid cyan 1px;*/
+		width: 100%;
+	}
+
+	#panel_control, #links_pasos{
+		text-align: center;
+	}
+
+	td{
+		white-space: nowrap;
+ 		/*width: 1px;*/
+		padding: 5px;
+		text-align: center;
+	}
+
+	td input{
+		text-align: center;
+		width: 100%;
+		font-size: 12px;
+
+	}
+
+	tr:nth-child(even) {
+		background-color: rgba(181, 195, 210, 0.23);
+	}
+
+	tr:not(#titulos_tabla):hover {
+		background-color: rgba(137, 123, 160, 0.29);
+		color:#fff;
+	}
+
+	.col_trat{
+		position: relative;
+		width: 100px;
+	}
+
+	.col_btn_mod, .col_btn_gua, .col_btn_elim{
+		position: relative;
+		width: 40px;
+	}
+
+	#titulos_tabla td{
+		font-family: 'Montserrat', sans-serif;
+		white-space: nowrap;
+		font-size: 0.85em;
+    	/*width: 1px;*/
+		padding: 5px;
+		border: transparent;
+		font-weight: bold;
+		color: #345555;
+	}
+
+	tr{
+		white-space: nowrap;
+   		/*width: 1px;*/
+		
+	}
+	#caja_tabla{
+		/*overflow-x:auto;*/
+		/*position: fixed;*/
+		/*width: 70%;*/
+	}
+	
+
+	table#tabla_consulta_citas{
+		/*table-layout: fixed;*/
+		font-family: 'Montserrat', sans-serif;
+		font-size: 0.85em;
+ 		padding: 10px;
+    	margin: 70px 0;
+    	white-space: nowrap;
+    /*width: 70%;*/
+	
+	}
+
+
+	/*//CSS PARA DISTINGUIR FECHAS DISPONIBLES///*/
+	.fecha_disponible{
+ 		color:#0064ff !important;   
+	}
+
+	.fecha_reservada{
+ 		color:red !important;   
+	}
+
+	
+	/*///----------------------///*/
+
+	.tit_filtro{
+	margin: 79px auto 26px;
+    color: #345555;
+    font-size: 24px;
+    border: solid 1px grey;
+    width: 260px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+
+display: none
+	
+
+
+
+	}
+
+	.horario{
+		margin: 0 auto 10px;
+	}
+
+	#opciones_tratamiento{
+		margin: 15px auto;
+	}
+
+	/*/////calendario////*/
+
+	.datepick{
+		margin: auto;
+	}
+
+	.datepick-month{
+		width: 250px !important;
+	}
+
+	.datepick-cmd{
+
+	text-align: center !important;
+
+	height: 1.5em;
+	font-family: 'Montserrat', sans-serif;
+	background-color: transparent !important;
+	color: #ffffff !important;
+	font-weight: 300 !important;
+	}
+
+	.datepick-nav{
+		background-color: rgba(52, 85, 85, 0.55) !important; 
+	}
+
+	#consulta_citas{
+
+		width: 69%;
+		float: left;
+		margin: auto;
+
+	}
+
+	.btn_guar{
+	/*visibility:hidden;*/
+	padding: 3px;
+	background-image: url(../img/icon_guardar.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border-style: none;
+	}
+	
+	.btn_elim{
+	visibility:hidden;
+	padding: 3px;
+	background-image: url(../img/icon_eliminar.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border-style: none;
+	}
+
+
+	.btn_mod{
+	visibility: hidden;
+	padding: 3px;	
+	background-image: url(../img/icon_editar.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border-style: none;
+    margin-right: 5px;
+	}
+
+	.btn_hover{
+		visibility:visible;
+	}
+
+	#btn_guardar_citas{
+    margin: 70px auto;
+    position: relative;
+    width: 290px;
+    line-height: 40px;
+    height: 40px;
+    display: none;
+    border-radius: 3px;
+    background-color: #547eab;
+    color: #fff;
+    cursor: pointer;
+    border:solid 1px #547eab;
+	background-color: #eef2fd;
+	color:#547eab;
+}
+
+
+#btn_guardar_citas:hover{
+	background-color: #547eab;
+    color: #fff;
+	}
+
+
+hr{
+	width: 80%;
+}
+
+#combo_responsables, #combo_horas, #combo_tratamientos, #ciudad {
+    margin: 0 auto 20px;
+    color: #345555;
+    font-size: 19px;
+    border: solid 1px grey;
+    width: 271px;
+    height: 30px;
+    line-height: 40px;
+    border-radius: 8px;
+
+
+
+
+	/*font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	cursor:pointer;
+	border:transparent;
+	border-bottom: solid 1px #345555; 
+	width: 80%;*/
+
+	/*-webkit-appearance: none;*/
+}
+
+select {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	cursor:pointer;
+	background-color: transparent;
+	border:transparent;
+	/*border-bottom: solid 1px #345555; */*/
+	/*-webkit-appearance: none;*/
+}
+
+.datepick-month-header, .datepick-month-header select, .datepick-month-header input {
+	height: 1.5em;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #eef2fd !important;
+	color: #000 !important;
+	font-weight: 300 !important;
+}
+
+.datepick-month{
+	border: transparent !important;
+	font-family: 'Montserrat', sans-serif;
+}
+	
+/**/
+
+#caja_crear_cita_disponible{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	margin: auto ;
+	color: #345555;
+	width: 69%;
+    float: left;
+   }
+
+#caja_crear_cita_disponible p{
+	color:#e25555;
+	margin: 40px auto 40px;
+	
+}
+
+#tabla_filtros{
+	font-size: 15px;
+    text-align: center;
+    margin: auto;
+}
+
+.advertencia_filtro{
+	color:#e25555;
+}

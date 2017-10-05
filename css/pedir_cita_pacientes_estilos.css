@@ -1,0 +1,18 @@
+body, html{
+	background-color: #fff ;
+}
+
+#btn_logoff, .btn_gestionar{
+   
+  background-color: #fff;
+  }
+
+#caja_crear_cita_disponible p {
+    color: #000;
+    margin: 40px auto 40px;
+}
+
+#nombre_usuario{
+	margin: 20px;
+	font-weight: bold;
+}

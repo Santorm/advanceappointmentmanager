@@ -1,0 +1,833 @@
+/*DESDE AQUI HEADER*/
+header{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-image: url(../imagenes/lunapiel_dermatologiaa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -50px;
+}
+#logotipo_header img{
+    position: relative;
+    cursor: pointer;
+    float: right;
+    width: 50%;
+    margin: 25px 0;
+}
+#header_btn_reserva{
+  cursor: pointer;  
+}
+#header_btn_reserva:hover {
+    transform: scale(1.03); 
+}
+#galeria{
+    position: relative;
+    width: 100%;
+    height:120px;
+    clear: both;
+}
+#text_galeria{
+    width: auto;
+    position: relative;
+    height: auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+    line-height: 24.6px;
+    text-align: right;
+    color: #002e3e;
+    float: right;
+}
+#text_galeria span{
+    
+    color: #8F7D53;  /*color dorado*/
+}
+#galeria img{
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    width: 176px;
+}
+/*HASTA AQUI HEADER*/
+/*////////*/
+body, html{
+	font-size: 16px;
+	text-decoration: none;
+    margin: auto;
+}
+body{
+    margin: auto;
+   width: 100%;
+}
+a{
+text-decoration: none;
+}
+h1{
+	display: inline;
+	font-style: none;
+	margin:0;
+	padding:0;
+	font-size:100%;
+	font-weight:normal;
+}
+#contenedor {
+
+	width:100%;
+    position:relative;
+	height:auto;
+	margin:auto;
+    overflow: hidden;
+}
+/*DESDE AQUI SECCION ICONOS INFORMATIVOS*/
+#contenido_section_iconos{
+    padding: 40px 20px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    -ms-flex-wrap:wrap;
+flex-wrap:wrap;
+    box-sizing: border-box;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+}
+#section_iconos_informativos{
+   width: 100%;
+    margin: auto;
+    background-color: #D1D4CF;
+    position: relative;  
+}
+.iconos_informativos{
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select:none;
+}
+#equipo_medico{
+    cursor: default !important;
+}
+.icono_sec_inf, .logos_titulo, .textoszonainf {
+	position: relative;
+    margin: auto;
+}
+.iconos_informativos:hover{
+   transform: scale(1.03);
+}
+.textoszonainf {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    font-weight: 300;
+  	text-align: center;
+    height: 84px;
+    margin: 5px 0 0 0;
+    line-height: 18px;
+    color: #4D4D4D;	
+}
+
+.logos_titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 9.6px;
+    color: #002E3E;
+    line-height: 2;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-top: 6px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+
+/*HASTA AQUI SECCION ICONOS INFORMATIVOS*/
+
+/*DESDE AQUI SECCION 1*/
+
+#seccion_1{     
+position: relative;     
+width: 100%;     
+height: 450px;
+ background-image: url(../imagenes/redefiniendo_belleza_out.jpg);
+    background-attachment: fixed;
+    background-position-x: 350px;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat; 
+}
+
+#contenido_seccion_1{
+    width: 100%;
+    position: relative;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#fondo_secc_1{
+    position: absolute;
+    width: 100%;
+    height: 450px;
+ }
+.cajas_seccion_1{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0px;
+    left: 00px;
+}
+.tit_caja_secc_1{
+    width: 100%;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.1em;
+    line-height: 1em;
+    color: #002E3E ;
+ }
+.tit_caja_secc_1 span{
+    color : #928057;
+    
+}
+.cont_caja_secc_1{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.375em;
+    line-height: 28px;
+    color: #4D4D4D;
+    position: relative;
+    margin: 30px 0;
+    font-weight: 300;
+    width: 80%; 
+}
+#dialogo_secc_1{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 53px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0 15px;
+    height: 50px;
+    border: solid 2px #8F7D53;
+    text-align: center;
+    color: white;
+    margin: 35px auto 0;
+}
+
+#dialogo_secc_1:hover{
+   transform: scale(1.03);
+}
+/*HASTA AQUI SECCION 1*/
+/*DESDE AQUI SECCION 2 QUE OFRECEMOS*/
+#seccion_2{
+    width: 100%;
+    height: auto;
+    background-color: #6f6753;
+    position: relative;
+}
+#contenido_seccion_2{
+    width: 100%;
+    position: relative;
+    padding: 20px 20px 40px;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    box-sizing: border-box;
+}
+
+#servicios_cuadros{
+    position: relative;
+    width: 100%;
+    display: flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    justify-content: space-between
+}
+.cajas_ofrecemos{
+     width: 100%;
+    /* margin: 5px; */
+    border: solid 5px #6f6753;
+    height: 240px;
+    position: relative;
+    padding: 15px;
+    box-sizing: border-box;
+    cursor: pointer;  
+}
+
+.cajas_ofrecemos:hover{
+   transform: scale(1.02);
+}
+
+.tit_2{
+
+    width: 50%;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    line-height: 20px;
+    color: #002E3E;
+    position: relative;  
+}
+.tit_2 span{
+
+	width: 234px;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    line-height: 20px;
+    color: #B5896A;   
+}
+.cont_2{
+    font-family: 'Lato', sans-serif;
+    line-height: 23px;
+    color: #4D4D4D;
+    position: relative;
+    opacity: 1;
+    font-size: 0.9em;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+#cont_2_1, #cont_2_4{
+    color:  #D0D3CE;
+}
+
+#caja_ofrecemos_1{
+    
+    background-color: #918057;
+}
+
+#tit_2_1{
+
+    color:#D0D3CE;
+}
+#caja_ofrecemos_2{
+   
+    background-color: #E6B1A5;
+}
+#tit_2_2{
+    color:#002E3E;
+}
+#caja_ofrecemos_3{
+     background-color: #D0D3CE;
+}
+#tit_2_3{
+   color:#918057;
+}
+
+#caja_ofrecemos_4{
+	
+    background-color: #002E3E;
+}
+
+#tit_2_4{
+
+    color:#918057;
+}
+#caja_ofrecemos_3 .tit_2{
+	width: 135px;
+
+}
+
+.icono_caja_ofrecemos{
+    position: absolute;
+    opacity: 0.9;
+    float: right;
+    width: 60px;
+    bottom: 10px;
+    right: 10px
+}
+
+/*HASTA AQUI SECCION 2 QUE OFRECEMOS */
+/*DESDE AQUI SECCION 3 QUE OFRECEMOS */
+
+#seccion_3{
+    position: relative;
+    width: 100%;
+    height: auto;   
+    
+}
+
+#contenido_seccion_3{
+    width: 100%;
+    position: relative;
+    padding: 20px;
+    margin: 40px auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -ms-flex-wrap:wrap;
+flex-wrap:wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    box-sizing: border-box;
+}
+
+#foto_seccion_3, #caja_texto_seccion_3{
+    width: 100%;
+    position: relative;
+    margin: 0 0px 0 0;
+    box-sizing:border-box;
+}
+
+#foto_seccion_3{
+    background-image:url("../imagenes/promociones_descuentos_lunapiel.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+}
+#titulo_seccion_3{
+    font-family: 'Montserrat', sans-serif;
+    /*font-size: 3.625em;*/
+    font-size: 14vw;
+}
+#linea_seccion_3{
+    position: relative;
+    margin-right: 130px;
+    border:1px solid #8F7D53 ; 
+}
+#text_gris{
+    color: #8F8D8D;
+}
+#text_negro{
+    color: #002E3E;
+}
+#text_dorado{
+    color: #928057;
+}
+#texto_seccion_3{
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    color: #8F8D8D;
+    line-height: 30px;
+    margin-top: 30px;
+    text-align: justify;
+    margin-right: 30px;
+    font-weight:  300;
+}
+#trat_zona_2{
+    display: none;
+}
+/*HASTA AQUI SECCION 3 QUE OFRECEMOS */
+/*DESDE AQUI SECCION 4 COMENTARIOS*/
+#seccion_4{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #E3E4DF;  
+}
+
+#contenedor_seccion_4{
+    width: 100%;
+    padding: 40px 20px;
+    height: auto;
+    position: relative;
+    box-sizing: border-box;
+    margin: auto;
+}
+#caja_texto_seccion_4{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    position: relative;
+    margin-top: 20px;
+    right: 0;
+    padding: 20px 20px 60px 20px;
+    box-sizing: border-box;
+}
+
+#text_secc_4_titulo{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.9em;
+    line-height: 30px;
+    color: #002E3E;
+   right: 10px;
+    text-align: right;
+}
+
+#text_secc_4_titulo span{
+    color:#928057;
+}
+#text_secc_4_1{
+    color:#002E3E;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    top: 30px;
+    position: relative;
+}
+#text_secc_4_2{
+    color: #002E3E;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 60px;
+    position: relative;
+   
+}
+/*////////////////DESDE AQUI ROSTROS COMPARACION///////////////*/
+#contenedor_comparacion{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 80px;
+    right: 0px;
+}
+
+#cont_comp{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 40px;
+}
+.caras{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+}
+#desplazar{
+    height: 100%;
+    width:1px;
+    left:50%;
+    position: relative;
+    background-color: transparent; 
+}
+#btn_desp{
+    position: relative;
+    left: -18.8px;
+    cursor: pointer;  
+}
+
+#antes, #despues{
+    width: 100px;
+    text-align: center;
+    font-family: 'Lato', sans-serif; 
+    color: #fff;
+    font-size: 1.8em;
+    position: absolute;
+    top: 20px;
+    opacity: 0.6;
+}
+#antes{;
+    left: 0;
+    width: 50%; 
+}
+#despues{
+    right: 0;
+    width: 50%; 
+}
+#botones{
+    position: absolute;
+    top: -36px;
+    width: 220px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+.botones_comp{    
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #999;
+}
+
+#bot_1{
+    background-color: grey;
+}
+
+.bot_centro{
+    margin: 0 35px; 
+}
+
+/*////////////////HASTA AQUI ROSTROS COMPARACION///////////////*/
+/*///////////HASTA AQUI SECCION 4 COMPARACION /////////////*/
+/*///////////DESDE AQUI SECCION 5 TESTIMONIOS /////////////*/
+#seccion_5{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #E3E4DF; 
+    
+}
+
+#contenido_seccion_5{
+    width: 100%;
+    position: relative;
+    margin: auto;
+    height: auto;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+.testimonios p{
+    font-size: 1em;
+}
+/*///////////HASTA AQUI SECCION 5 TESTIMONIOS /////////////*/
+
+#titulo_test{ 
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#titulo_test h2{ 
+    font-size: 1.9em;
+    letter-spacing: 6.5px;
+    font-weight: 400;
+    color: #002E3E;
+}
+#contenedor_test{
+    width: 100%;
+    position: relative;
+    margin: auto;
+    padding: 0 20px 40px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.testimonios{
+    width: 100%;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-size: 0.75em;
+    color: #8F8D8D;
+    letter-spacing: 1px;
+    line-height: 20px;
+    z-index: 1;
+}
+.testimonios img{
+    position: relative;
+    top: 35px;
+    opacity: 0.5;
+    z-index: -1;
+}
+.testimonios span{
+   font-family: 'Lato', sans-serif;
+    font-size: 0.9375em;
+    color: #002E3E;
+    font-style: normal;
+    position: relative;
+    top: 20px;  
+}
+/*////menu////*/
+.activado{
+    color: #918057 !important;
+    border-bottom: 1px solid #918057;
+}
+
+@media only screen and (min-width: 600px){
+
+/*///header///*/
+
+header{
+background-position-x:0;
+}
+#text_galeria{
+    font-size: 1.4em;
+    line-height: 27.5px;
+}
+}
+@media only screen and (min-width: 600px) and (max-width: 779px) {
+/*////ICONOS INFORMATIVOS////*/
+.iconos_informativos {
+    width: 50%
+  }
+/*///SECCION 1///*/
+  #contenido_seccion_1 {
+    margin:0;
+    width: 60%;
+  }
+/*///SECCION2////*/ 
+  .cajas_ofrecemos {
+    width: 50%;
+ }
+/*////////SECCION 5////////////*/
+#contenedor_test{
+      padding: 0 40px 40px;
+}
+
+/*////footer///*/
+#quito, #ambato{
+   width: 50%;
+    
+}
+
+}
+@media only screen and (min-width: 780px){
+  /*////header/////*/
+header{
+  height: 510px;
+}
+
+#text_galeria{
+     font-size: 2.5em;
+    line-height: 45px;
+        top: -60px;
+}
+#galeria {
+  top:100px;
+  }
+#galeria img{
+  display: block;
+}
+#logotipo_header img{
+    width: 325px;
+    top: 30px
+}
+/*//////ICONOS INFORMATIVOS////////////*/
+#contenido_section_iconos {
+    padding: 40px 20px;
+    max-width: 1024px;
+}
+.iconos_informativos {
+    width: 25%;
+}
+/*//////////////SECCION 1///////////*/
+#contenido_seccion_1{
+  max-width: 1024px;
+}
+#seccion_1{
+  height: 550px;
+}
+.cont_caja_secc_1{
+    margin: 30px 130px 0 0;
+    width: 40%;
+}
+.tit_caja_secc_1{
+  font-size: 2.1em;
+}
+
+.cont_2{
+    opacity: 0;
+}
+/*/////SECCION2//////////*/
+#contenido_seccion_2 {
+  padding: 40px 20px 170px 20px;
+    box-sizing: border-box;
+    max-width: 1024px;
+}
+.cajas_ofrecemos {
+    width: 50%;
+    padding: 1em;
+}
+#servicios_cuadros {
+    position: relative;
+    width: 50%;
+  }
+#dialogo_secc_1{
+  position: absolute;
+   margin: auto;
+   right: 13%;
+   bottom: 60px;
+}
+#trat_zona_2{
+  display: block;
+  width: 45%;
+  color: #D0D3CE;
+  font-family: 'Lato', sans-serif;
+  line-height: 23px;
+  position: relative;
+  opacity: 0;
+  font-size: 0.9em;
+  box-sizing: border-box;
+}
+#ul_tit_trat li{
+  display: inline-block;
+}
+h2#tit_tratamientos{
+    color: #D0D3CE;
+    font-size: 3em;
+    font-weight: 300;
+    margin-bottom: 25px;
+    line-height: 36px;
+  }
+/*/////SECCION 3 /////*/
+#contenido_seccion_3 {
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: row;
+           flex-direction: row;
+    padding: 40px 20px;
+    max-width: 1024px;
+}
+#foto_seccion_3, #caja_texto_seccion_3 {
+width: 48%;
+}
+#titulo_seccion_3{
+font-size: 3.625em; 
+}
+
+/*///////SECCION 4//////*/
+
+#contenedor_seccion_4{
+  max-width: 1024px;
+ 
+}
+#cont_comp {
+    width: 60%;
+    margin: 40px auto;
+}
+#caja_texto_seccion_4 {
+    font-size: 1.5em;
+    padding: 20px 20px 35px 20px;    
+}
+#text_secc_4_titulo {
+     line-height: 44px;
+}
+#text_secc_4_1{
+  font-size: 1.3em;
+  top: 15px;
+}
+#text_secc_4_2{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+/*////SECCION 5//////*/
+#contenido_seccion_5{
+  padding: 40px;
+  max-width: 1024px;
+}
+#contenedor_test {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+#titulo_test h2 {
+    font-size: 3.5em;
+ }
+.testimonios {
+    width: 30%;
+}
+}

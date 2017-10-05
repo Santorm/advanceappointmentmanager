@@ -1,0 +1,239 @@
+/*///captcha///*/
+.grecaptcha-badge{
+  display: none !important;
+}
+/*///CAMBIOS HEADER//*/
+#galeria img {
+display: none;
+}
+/*///HORARIOS///*/
+#contenedor_formul{
+padding: 10px;
+margin: 40px auto;
+}
+#tit_contacto{
+     font-family: 'Montserrat', sans-serif;
+     color: #8F8D8D;
+     font-size: 2.625em;
+     text-align: center;
+}
+#tit_contacto span{
+    color:#928057 !important;
+}
+#indicaciones{
+    text-align: justify;
+    padding: 50px 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.375em;
+    line-height: 34px;
+}
+.tit_horario, .ciudad_horario{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.88375em;
+    text-align: center;
+}
+#tit_horario_1{
+    color:#8F8D8D;
+}
+#tit_horario_2{
+    color:#353944;
+}
+#tit_horario_3 , .ciudad_horario{
+    color:#928057;
+}
+.dias_horario{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+    font-size: 1em;
+    color: #9C9C9C;
+    text-align: center;
+}
+#atencion{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 0.7em;
+    color: #9C9C9C;
+    text-align: center;
+}
+#contacto {
+    height: auto;
+    padding: 20px;
+    margin: 0px auto 40px;
+    max-width:  800px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;    
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+#texto_contacto{
+    font-family: 'Lato', sans-serif;
+    /*font-weight: 300;*/
+    margin: auto;
+    width: 700px;
+    height: 40px;
+    text-align: center;
+    font-size: 17px;
+    border: solid 1px #8F7D53;
+    border-radius: 10px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    background-color: #8F7D53;
+    color: white;
+}
+#formulario_contacto{
+     position: relative;
+    margin: auto;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+}
+
+#caja_form{
+     border: solid 1px #8F7D53;
+     margin: 40px auto;
+ }
+ #caja_form, #horarios{
+    width: 100%;
+    box-sizing: border-box;
+ }
+#formulario_contacto input{
+    font-family: 'Lato', sans-serif;
+    vertical-align: middle;
+    text-align: center;
+    border: solid 1px #8F7D53;
+    margin-top: 5px;
+    width: 90%;
+    margin-top: 19px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+   border-top-color: transparent;
+}
+#formulario_contacto input:hover{
+opacity: 1;
+}
+#boton_enviar{
+    font-family: 'Lato', sans-serif;
+    width: 170px;
+    height: 40px;
+    font-size: 13px;
+    cursor: pointer;
+    margin: 50px auto 20px;
+    position: relative;
+    display: block;
+    background: #fff;
+    border: solid 1px #928057;
+    color:#928057;
+
+}
+#boton_enviar:hover{
+    transform: scale(1.03);
+}
+#form_mensaje{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    border: solid 1px #8F7D53;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    width: 90%;
+   height: auto;
+}
+
+#notificacion{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 1em;
+    color:#ef8269;
+    display: block;
+    margin: 30px auto;
+}
+
+#icono_email{
+
+    width: 19px;
+    height: 13px;
+    position: absolute;
+    top: 93px;
+}
+#icono_tel{
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: 50px;
+}
+#icono_nombre{
+    width: 13px;
+    height: 17px;
+    position: absolute;
+    top: 12px;   
+}
+#icono_mensaje{
+     width: 16px;
+    height: 21px;
+    position: absolute;
+    top: 173px;
+}
+/*///seccion mapas///*/
+#mapas{
+    display: none;
+}
+#captcha{
+   margin: 20px auto;
+   width: 234px;
+}
+/*////menu////*/
+.activado{
+    color: #918057 !important;
+    border-bottom: 1px solid #918057;
+}
+/*//////////MEDIAQUERIES//////*/
+@media only screen and (min-width: 600px) {
+#formulario_contacto {
+     margin: 40px auto;
+}
+#mapas{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#oculta_mapa{
+  background-color: white;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0px;
+}
+/*////dDESDE AQUI CONTACTO HORARIOS...*/
+#contacto {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+ #caja_form, #horarios{
+    width: 50%;
+    margin: 0;
+ }
+#formulario_contacto {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+#formulario_contacto {
+    margin: 0px auto;
+    overflow: hidden;
+}
+#indicaciones{
+    text-align: center;
+}
+}

@@ -1,0 +1,272 @@
+#contenedor_trat{
+    position: relative;
+    width: 100%;
+    max-width: 1024px;
+    height: auto;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+#tratamientos{
+    overflow: hidden;
+    position: relative;     
+    width: 100%;     
+    height: auto;
+    padding: 30px 0 50px;
+}
+#caja_intro_trat{
+    position: relative;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    color: #333333;
+    line-height: 24px;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#caja_intro_trat hr{
+    width: 10%;
+    margin: 30px auto;
+    color:#918057;
+}
+
+#caja_intro_trat h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    line-height: 2em;
+    color: #002E3E ;
+    text-align: center;
+}
+#caja_intro_trat span{
+    color: #928057;
+}
+#contenido_trat{
+    position: relative;
+    margin: 50px 0px 0px 0px;
+    height: auto;
+}
+#tab_tratamientos{
+    position: relative;
+    min-height: 370px;
+    width: 100%;
+}
+#lista_trat{
+    position: absolute;
+    padding: 0 100% 0px 0px;
+    z-index: 1;
+    background-image: url(../imagenes/tratamientos/dermatologia.jpg);
+    background-position-x: 50%;
+    background-size: contain;
+    background-repeat: no-repeat
+}
+#lista_trat li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    width: 130px;
+    height: 30px;
+    background-color: #fff;
+    border:solid 1px #8F7D53;
+    border-left-color: transparent;
+    position: relative;
+    color: #8F7D53;
+    text-align: right;
+    line-height: 27px;
+    padding: 2px 5px 2px 0;
+    margin: 0 0 4px 0;
+    cursor:pointer;
+}
+#lista_trat li:hover {
+    transform: scale(1.03);
+    font-size: 12.7px;
+    }
+#lista_trat span{
+    margin-left: -2px;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    color: #fff;
+    top: -27px;
+    text-align: right;
+    display: none;
+    width: inherit;
+}
+#desc_trat {
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 0;
+    padding: 0px 20px 0px 30px;
+    box-sizing: border-box;
+}
+#desc_trat img{
+    position: relative;
+    width: 15px;
+    height: 15px;
+}
+/*///////////ZONAS/////*/
+ul#zonas_trat{
+    display: none;
+}
+h2#tit_pop_zonas{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.875em;
+    color:#928057;
+    font-weight: 300;
+}
+p#cont_pop_zonas{
+    position: relative;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.95em;
+    color: #333333;
+    line-height: 22px;
+    text-align: justify;
+    margin: 20px auto;
+}
+#btn_pop_zonas{
+    background-color: #928057;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875em;
+    color: #fff;
+    width: 90%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin: 30px auto;
+    position: relative;
+    opacity: 1 !important;
+    cursor: pointer;
+    display: none;
+}
+#btn_pop_zonas:hover {
+    transform: scale(1.02);
+    font-size: 0.86em;
+    }
+/*////menu////*/
+.activado{
+    color: #918057 !important;
+    border-bottom: 1px solid #918057;
+}
+@media only screen and (min-width: 600px){
+#tratamientos{
+    background-image: none;
+    width: 100%;
+    min-height: 1500px;
+    max-width:  1024px;
+    margin: 50px auto 0;  
+    position:   relative;   
+}
+#desc_trat {
+    width: 44%;
+    height: auto;
+    background-color: transparent;
+    opacity: 1;
+    position: relative;
+    left: 0;
+    padding: 88px 15px;
+    min-height: 730px;
+}
+ul#zonas_trat{
+    display: block;
+    width: 565px;
+    height: auto;
+    min-height: 800px;
+    position: absolute;
+    margin: 50px 0;
+    right: -12%;
+    background-image: url(../imagenes/tratamientos/dermatologia.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#lista_trat{
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background-image: none;
+    top: 0px;
+    margin: auto;
+    width: 430px;
+    right: 0;
+    left: 0;
+    padding: 0px;
+}
+#lista_trat li{
+    border:solid 1px #8F7D53;
+    border-radius:  2px;
+    text-align: center; 
+    padding: 0;
+    margin: 5px
+}
+.zonas{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    display: block;
+}
+.zonas:hover{
+    opacity: 1;
+    transform: scale(1.05);  
+}
+#zona_acne{
+    position: absolute;
+    left: 216px;
+    top: 89px;
+}
+#zona_alopecia{
+    left: 209px;
+    top: 9px;
+}
+#zona_laser{
+    left: 210px;
+    top: 415px;
+}
+#zona_lunares{
+    left: 259px;
+    top: 161px;
+}
+#zona_rejuv{
+    left: 195px;
+    top: 61px;
+}
+#zona_rellenos{
+    left: 234px;
+    top: 174px;
+}
+#zona_rosacea{
+    left: 200px;
+    top: 125px;
+}
+#zona_manchas{
+    top: 129px;
+    left: 211px;
+}
+#zona_verrugas{
+    top: 249px;
+    left: 177px;
+}
+}
+@media only screen and (min-width: 675px){
+#desc_trat {
+    width: 50%;
+}
+}
+@media only screen and (min-width: 780px){
+    ul#zonas_trat{
+    right: 0;
+    }
+    #desc_trat {
+    width: 45%;
+}
+}
+@media only screen and (min-width: 875px)  {
+#desc_trat {
+    width: 50%;
+    max-width: 450px;
+}
+}
